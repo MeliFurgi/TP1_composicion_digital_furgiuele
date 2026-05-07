@@ -1,0 +1,100 @@
+.principio1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    gap: 40px;
+    margin-top: 1%;
+}
+.principiotexto {
+   width: 50%;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    font-size: 26px;
+}
+.portadaprincipio {
+    display: flex;
+    width:50%;
+    justify-content: right;
+    margin-left: 50%;
+    margin-top: -22.5%;
+    margin-right: -5%;
+}
+.portada {
+    width: 100%;
+    display: block; 
+}
+.principio {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 5%;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium';
+}
+.entradas {
+   width: 25%;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.botones {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    border-radius: 10px;
+    padding: 6px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.espacio2 {
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.seccion-pagos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap: 80px;
+    font-size: 30px;
+}
+.linea {
+    width: 2px;
+    height: 350px;
+    margin-top: -2%;
+    background-color: white;
+}
+.pagos {
+    width: 45%;
+    margin-top: -5%;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+.virtuales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.textocuotas {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+.importante {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}

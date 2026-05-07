@@ -1,0 +1,169 @@
+.icon { 
+    display: block;
+    margin-top: -3%;
+}
+.principio1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    gap: 40px;
+    margin-top: 2%;
+}
+.principiotexto {
+   width: 50%;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    font-size: 26px;
+}
+.principio {
+   font-family: 'Franklin Gothic Medium';
+    color: white;
+}
+.footer-izq2 {
+    width: 35%;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: -4%;
+    margin-left: 5%;
+}
+.formulario2 {
+    display: inline-block;
+    gap: 10px;
+}
+.formulario2 input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 90%;
+    margin-bottom: 2%;
+}
+.formulario2 textarea {
+    font-family: 'Franklin Gothic Medium';
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 90%;
+    height: 140px; 
+    margin-bottom: 2%;
+}
+.submit2 {
+    padding: 15px 100px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.linea { 
+    width: 2px;
+    height: 800px;
+    margin-top: -32%;
+    background-color: white;
+    margin-left: 50%;
+}
+.principio2 {
+    font-size: 26px;
+    position: absolute;
+    right: 5%;
+    top: 280px;
+    width: 40%;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+.faq {
+    margin-top: 20px;
+}
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.faq-item p {
+    margin: 0;
+}
+.faq-item span {
+    font-size: 20px;
+}
+.cajatarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 6%;
+    width: 80%;
+}
+.mapa {
+    width: 50%;
+    margin-left: 5%;
+}
+.direccion {
+    width: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    margin-left: 5%;
+    font-family: 'Franklin Gothic Medium';
+}
+.direccion h2 {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+.direccion p {
+    font-size: 20px;
+}
+.espacio {
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.footer-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    margin-top: -5%;
+}
+.footer-izq {
+    width: 45%;
+    margin-left: 20%;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+.footer-der {
+    width: 35%;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+.cierre {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+.redes {
+    display: flex;
+    gap: 20px;
+}
+.redes img {
+    width: 50px;
+}
+.formulario {
+    display: flex;
+    gap: 10px;
+}
+.formulario input {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    width: 60%;
+}
+.submit {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
