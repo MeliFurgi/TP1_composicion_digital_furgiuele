@@ -1,0 +1,88 @@
+.actividades-principal {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.banner-actividades {
+    display: flex;
+}
+.texto-banner {
+    width: 50%;
+    padding: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+.texto-banner h2 {
+    font-size: 45px;
+}
+.texto-banner p {
+    font-size: 22px;
+}
+.imagen-banner {
+    width: 100%;
+    margin-top: -3%;
+    margin-right: -6%;
+}
+.imagen-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenedor-actividades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    padding: 40px;
+}
+.actividad {
+    width: 220px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+.actividad img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+.actividad h3 {
+    font-size: 18px;
+}
+.actividad p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.cronograma {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 40px;
+    padding: 30px;
+
+    border: 2px solid white;
+    border-radius: 15px;
+
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+}
+.cronograma-icono img {
+    width: 80px;
+}
+.cronograma-texto {
+    width: 50%;
+}
+.cronograma-boton a {
+    text-decoration: none;
+}
+.cronograma-boton h3 {
+    border: 2px solid white;
+    border-radius: 10px;
+
+    padding: 15px 35px;
+
+    color: white;
+}

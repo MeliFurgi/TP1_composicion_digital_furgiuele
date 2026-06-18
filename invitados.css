@@ -1,0 +1,80 @@
+.principio1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    gap: 40px;
+}
+.principiotexto {
+    width: 50%;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    font-size: 26px;
+    margin-right: 55%;
+}
+.portadaprincipio {
+    display: flex;
+    width:50%;
+    justify-content: right;
+    margin-left: 50%;
+    margin-top: -22.5%;
+}
+.portada {
+    width: 100%;
+    display: block; 
+    margin-top: -13.4%;
+}
+.cajatarjetas {
+    background-color: #e08011;
+    width: 100%;
+    padding: 30px 0;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    margin: 0;
+}
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px; 
+}
+.tarjeta {
+    width: 20%; 
+    min-width: 200px; 
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.tarjeta-img {
+    width: 100%;
+    border-radius: 10px;
+}
+.cajatarjetas2 {
+    background-color: #e08011;
+    width: 100%;
+    padding: 30px 0;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+    margin: 0;
+    margin-top: -0.4%;
+}
+.division {
+    margin-top: 0px;
+}
+.seccion-invitados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    background-color: #ffc72e;
+}
+.linea {
+    width: 2px;
+    height: 300px;
+    margin-top: -4%;
+    background-color: white;
+}

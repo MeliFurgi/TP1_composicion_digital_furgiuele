@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ACC CONTACTO</title>
     <link rel="icon" href="img/Logo.webp">
     <link rel="stylesheet" href="./global.css">
-</head>
+    
 <link rel="stylesheet" href="./contacto.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 <body>
      <header class="menu">
         <nav>
@@ -25,7 +28,7 @@
         </div>
         <hr class="home">
     
-        <main>
+        <main class="main">
 
            <section class="principio1">
               <div class="principiotexto">
@@ -57,39 +60,132 @@
           <div class="linea"></div>
 
           <section class="principio2">
-                <h2>PREGUNTAS FRECUENTES</h2>
-                <div class="faq">
-                <div class="faq-item">
-                 <p>¿A partir de qué edad pueden ingresar?</p>
-                  <span>+</span>
-               </div>
-                <div class="faq-item">
-                  <p>¿Puedo ingresar con cosplay?</p>
-                  <span>+</span>
+    <h2>PREGUNTAS FRECUENTES</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta1">
+                    ¿A partir de qué edad pueden ingresar?
+                </button>
+            </h2>
+
+            <div id="pregunta1" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Los menores de 13 años deben ingresar acompañados por un adulto responsable. Los mayores de 13 años pueden ingresar solos con una entrada válida.
                 </div>
-                <div class="faq-item">
-                  <p>¿Se puede salir y volver a entrar?</p>
-                 <span>+</span>
-               </div>
-                <div class="faq-item">
-                  <p>¿Hay estacionamiento en el lugar?</p>
-                  <span>+</span>
-              </div>
-               <div class="faq-item">
-                  <p>¿Qué medios de pago aceptan?</p>
-                  <span>+</span>
-              </div>
-               <div class="faq-item">
-                  <p>¿El evento se cancela por lluvia?</p>
-                 <span>+</span>
-               </div>
-               <div class="faq-item">
-                  <p>¿Puedo llevar comida y bebida?</p>
-                 <span>+</span>
-              </div>
             </div>
-           </section>
-         
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta2">
+                    ¿Puedo ingresar con cosplay?
+                </button>
+            </h2>
+
+            <div id="pregunta2" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Sí. Pueden ingresar caracterizados como sus personajes favoritos. No están permitidas armas reales ni elementos peligrosos.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta3">
+                    ¿Se puede salir y volver a entrar?
+                </button>
+            </h2>
+
+            <div id="pregunta3" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Sí, siempre que conserves tu pulsera o acreditación oficial del evento y cumplas con las condiciones de reingreso establecidas por la organización.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta4">
+                    ¿Hay estacionamiento en el lugar?
+                </button>
+            </h2>
+
+            <div id="pregunta4" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Sí. El Centro Costa Salguero cuenta con estacionamiento pago sujeto a disponibilidad. Se recomienda llegar con anticipación durante los horarios de mayor concurrencia.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta5">
+                    ¿Qué medios de pago aceptan?
+                </button>
+            </h2>
+
+            <div id="pregunta5" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Se aceptan tarjetas de crédito, débito, Mercado Pago y otros medios electrónicos habilitados. Algunos stands pueden aceptar únicamente determinados métodos de pago.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta6">
+                    ¿El evento se cancela por lluvia?
+                </button>
+            </h2>
+
+            <div id="pregunta6" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    No. Comic Con Argentina se realiza en espacios cubiertos, por lo que el evento continúa normalmente incluso en caso de lluvia.
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#pregunta7">
+                    ¿Puedo llevar comida y bebida?
+                </button>
+            </h2>
+
+            <div id="pregunta7" class="accordion-collapse collapse"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    No se permite ingresar alimentos ni bebidas al recinto. Sin embargo, habrá puestos de comida y bebida disponibles dentro del evento.
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
            <section class="cajatarjetas">
             <div class="mapa" >
                 <div class="embed-map-fixed"><div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&height=400&hl=en&q=Centro%20Costa%20Salguero&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://sprunkiretake.net" style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">Sprunki</a></div><style>.embed-map-fixed{position:relative;text-align:right;width:600px;height:400px;}.embed-map-container{overflow:hidden;background:none!important;width:600px;height:400px;}.embed-map-frame{width:600px!important;height:400px!important;}</style></div>

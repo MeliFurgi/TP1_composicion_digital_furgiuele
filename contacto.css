@@ -1,3 +1,10 @@
+.main {
+    background-color: rgb(26, 8, 77);
+}
+.home {
+    margin-top: 20px;
+    margin-bottom: -38px;
+}
 .icon { 
     display: block;
     margin-top: -3%;
@@ -8,6 +15,7 @@
     align-items: center;
     padding: 5%;
     gap: 40px;
+    margin-left: -11%;
     margin-top: 2%;
 }
 .principiotexto {
@@ -18,7 +26,8 @@
 }
 .principio {
    font-family: 'Franklin Gothic Medium';
-    color: white;
+   color: white;
+   margin-left: -4%; 
 }
 .footer-izq2 {
     width: 35%;
@@ -70,24 +79,31 @@
     color: white;
     font-family: 'Franklin Gothic Medium';
 }
-.faq {
-    margin-top: 20px;
-}
-.faq-item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.accordion-item {
+    background-color: rgb(14, 0, 53);
     border: 2px solid white;
-    border-radius: 10px;
-    padding: 15px;
     margin-bottom: 15px;
-    cursor: pointer;
 }
-.faq-item p {
-    margin: 0;
-}
-.faq-item span {
+.accordion-button {
+    background-color: rgb(14, 0, 53);
+    color: white;
+    font-family: 'Franklin Gothic Medium';
     font-size: 20px;
+}
+.accordion-button::after {
+    filter: brightness(0) invert(1);
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgb(14, 0, 53);
+    color: white;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-body {
+    background-color: rgb(14, 0, 53);
+    color: white;
+    font-size: 18px;
 }
 .cajatarjetas {
     display: flex;
