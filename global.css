@@ -5,7 +5,7 @@ body {
 .menu {
     text-align: right; 
     font-family: 'Franklin Gothic medium';
-    font-size: 20px;
+    font-size: 1.25rem;
     display: flex;
     padding: auto;
     justify-content: right;
@@ -32,7 +32,7 @@ body {
     justify-content: center;
     font-family: 'Franklin Gothic Medium';
     color: white;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin-top: -5%;
     margin-left: 9%;
 }
@@ -113,7 +113,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 0 10px;
     cursor: pointer;
 }
@@ -126,7 +126,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin: 0 10px;
     cursor: pointer;
 }
@@ -141,7 +141,7 @@ body {
     align-items: center; 
     font-family: 'Franklin Gothic Medium';
     color: white;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .info1 p, .info2 p {
@@ -161,7 +161,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 5%;
-    background-color: rgb(53, 148, 185);
+    background-color: rgb(110, 99, 255);
 }
 .seccion-destacados1 {
     display: flex;
@@ -199,11 +199,11 @@ body {
     margin-bottom: 26px;
 }
 .tarjeta h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: 10px;
 }
 .tarjeta p {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .tarjeta-img {
     border-radius: 10px;
@@ -235,7 +235,7 @@ body {
     margin-bottom: 5%;
 }
 .tarjeta2 h3 {
-    font-size: 15px;
+    font-size: 1rem;
     margin-top: 10px;
 }
 .cajatarjetas4 {
