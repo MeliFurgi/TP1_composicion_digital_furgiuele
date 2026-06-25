@@ -93,3 +93,30 @@
 
     color: white;
 }
+@media (max-width: 768px) {
+    .actividades-principal { width: 95%; margin-top: 20px; }
+    .banner-actividades { flex-direction: column; }
+    .texto-banner { width: 100%; padding: 20px; }
+    .texto-banner h2 { font-size: 1.6rem; }
+    .texto-banner p { font-size: 1rem; }
+    .imagen-banner { width: 100%; margin-top: 0; margin-right: 0; }
+    .contenedor-actividades { gap: 20px; padding: 20px; }
+    .actividad {
+        width: calc(50% - 20px);
+        min-width: 140px;
+        padding: 15px;
+    }
+    .actividad h3 { font-size: 0.95rem; }
+    .actividad p { font-size: 0.85rem; }
+    .cronograma {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        gap: 15px;
+    }
+    .cronograma-icono img { margin-left: 0; }
+    .cronograma-texto { width: 100%; margin-left: 0; font-size: 1rem; }
+    .cronograma-boton h3 { padding: 10px 20px; }
+}

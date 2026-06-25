@@ -184,3 +184,46 @@
     background-color: white;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .principio1 {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 6%;
+        gap: 20px;
+    }
+    .principiotexto { width: 100%; font-size: 1rem; }
+    .principio { margin-left: 0; }
+    .linea { display: none; }
+    .principio2 {
+        position: static;
+        width: 100%;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .footer-izq2 { width: 100%; margin-left: 0; text-align: center; }
+    .formulario2 input,
+    .formulario2 textarea { width: 100%; box-sizing: border-box; }
+    .submit2 { width: 100%; padding: 12px; }
+    .cajatarjetas {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+    .mapa { width: 90%; margin-left: 0; }
+    .direccion { width: 90%; margin-left: 0; text-align: center; }
+    .footer-contenido {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 8%;
+        margin-top: 0;
+    }
+    .footer-izq { width: 100%; margin-left: 0; text-align: center; }
+    .footer-der { width: 100%; text-align: center; }
+    .redes { justify-content: center; }
+    .formulario { flex-direction: column; align-items: center; }
+    .formulario input { width: 90%; }
+    .submit { width: 90%; padding: 10px; }
+    .cierre { margin-left: 0; }
+}

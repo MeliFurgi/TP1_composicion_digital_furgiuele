@@ -154,3 +154,38 @@
     color: white;
     font-family: 'Franklin Gothic Medium';
 }
+@media (max-width: 768px) {
+    .principio1 { flex-direction: column; padding: 6%; gap: 20px; }
+    .principiotexto { width: 100%; font-size: 1rem; }
+    .portadaprincipio {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-right: 0;
+        justify-content: center;
+    }
+    .portada { margin-top: 0; }
+    .principio {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+    .entradas { width: 85%; margin-top: 0; margin-bottom: 0; }
+    .botones, .botones2, .botones3 {
+        font-size: 1.1rem;
+        padding: 8px 30px;
+        margin-top: 10%;
+    }
+    .seccion-pagos {
+        flex-direction: column;
+        gap: 20px;
+        font-size: 1rem;
+        padding: 8%;
+    }
+    .pagos { width: 100%; margin-top: 0; }
+    .linea { display: none; }
+    .virtuales { flex-wrap: wrap; gap: 15px; }
+    .textocuotas, .importante { font-size: 1rem; }
+}

@@ -78,3 +78,27 @@
     margin-top: -4%;
     background-color: white;
 }
+@media (max-width: 768px) {
+    .principio1 {
+        flex-direction: column;
+        margin-left: 0;
+        padding: 8%;
+    }
+    .principiotexto {
+        width: 100%;
+        margin-right: 0;
+        font-size: 1rem;
+    }
+    .portadaprincipio {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .portada { margin-top: 0; }
+    .cajatarjetas, .cajatarjetas2 { width: 100%; padding: 20px 0; }
+    .contenedor-tarjetas { flex-wrap: wrap; justify-content: center; }
+    .tarjeta { width: 42%; min-width: 140px; }
+    .seccion-invitados { flex-direction: column; gap: 20px; }
+    .linea { display: none; }
+}

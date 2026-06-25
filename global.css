@@ -318,10 +318,97 @@ body {
     background-color: white;
     cursor: pointer;
 }
-
 .linea-footer {
     margin-left: -30%;
     width: 2px;
     height: 100px;
     background-color: white;
+}
+@media (max-width: 768px) {
+    .menu {
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+    .menu nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 4px 10px;
+        padding: 0 8px;
+    }
+    .menu a {
+        margin: 0 8px;
+        padding: 6px;
+        font-size: 0.85rem;
+    }
+    .icon {
+        width: 14%;
+        margin-top: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Comicconheader {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .contenido h1 { font-size: 2.5rem; }
+    .contenido p { font-size: 1.2rem; }
+    .principio1 { padding: 8%; }
+    .principiotexto { width: 100%; }
+    .comic { font-size: 2.2rem; }
+    .texto-centrado { font-size: 1rem; }
+    .botones1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .botonnegro, .botonblanco {
+        width: 80%;
+        padding: 12px 10px;
+        font-size: 1rem;
+        margin: 0;
+    }
+    .info-contenedor {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .seccion-destacados, .seccion-destacados1 {
+        flex-direction: column;
+        padding: 8%;
+    }
+    .cajatarjetas, .cajatarjetas2, .cajatarjetas3, .cajatarjetas4 {
+        width: 100%;
+        margin-top: 0;
+    }
+    .linea { display: none; }
+    .fila, .fila2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+    .tarjeta { width: 45%; }
+    .tarjeta2 { width: 45%; }
+    .dirección { margin-right: 0; text-align: center; padding: 0; }
+    .footer-contenido {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 8%;
+        margin-top: 0;
+    }
+    .footer-izq { width: 100%; margin-left: 0; text-align: center; }
+    .footer-der { width: 100%; text-align: center; }
+    .linea-footer { display: none; }
+    .redes { justify-content: center; }
+    .formulario { flex-direction: column; align-items: center; }
+    .formulario input { width: 90%; }
+    .submit { width: 90%; padding: 10px; }
+    .cierre { margin-left: 0; }
+    .vermapa { margin-top: 10px; padding: 8px 30px; }
 }
