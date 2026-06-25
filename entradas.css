@@ -20,7 +20,7 @@
     width:50%;
     justify-content: right;
     margin-left: 50%;
-    margin-top: -22.5%;
+    margin-top: -19.1%;
     margin-right: -5%;
 }
 .portada {
@@ -110,6 +110,9 @@
     height: 350px;
     margin-top: -2%;
     background-color: white;
+}
+@media (max-width: 600px) {
+    .linea { display: none; }
 }
 .pagos {
     width: 45%;

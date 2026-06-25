@@ -32,48 +32,55 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 35px;
+    gap: 50px;
     padding: 40px;
 }
 .actividad {
-    width: 220px;
-    border: 2px solid white;
+    background-color: rgba(57, 102, 224, 0.801);
+    box-shadow: 0px 0px 15px rgb(143, 223, 255);
+    width: 250px;
     border-radius: 15px;
     padding: 25px;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium';
 }
+.actividad:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
 .actividad img {
-    width: 80px;
+    width: 100%;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 .actividad h3 {
-    font-size: 18px;
+    font-size: 20px;
 }
 .actividad p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 22px;
 }
 .cronograma {
+    background-color: rgba(94, 137, 255, 0.849);
+    box-shadow: 0px 0px 15px rgb(143, 223, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     margin: 40px;
     padding: 30px;
-
-    border: 2px solid white;
     border-radius: 15px;
-
     color: white;
     font-family: 'Franklin Gothic Medium';
 }
 .cronograma-icono img {
     width: 80px;
+    margin-left: 115px;
 }
 .cronograma-texto {
     width: 50%;
+    font-size: 20px;
+    margin-left: -15%;
 }
 .cronograma-boton a {
     text-decoration: none;

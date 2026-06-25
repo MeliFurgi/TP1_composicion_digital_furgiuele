@@ -1,0 +1,248 @@
+body {
+    background-color: rgb(64, 54, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+/* NAV */
+.menu {
+    background-color: rgba(0,0,0,0.35);
+    padding: 12px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(6px);
+}
+.menu nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px 20px;
+    padding: 0 16px;
+}
+.menu nav a {
+    color: white;
+    text-decoration: none;
+    font-size: clamp(13px, 2vw, 17px);
+    transition: color 0.2s;
+}
+.menu nav a:hover { color: #c1b3ff; }
+
+/* LOGO */
+.site-header {
+    display: flex;
+    align-items: center;
+    padding: 20px 5%;
+    gap: 18px;
+}
+.icon { width: clamp(48px, 8vw, 80px); }
+.Comicconheader h1 { font-size: clamp(28px, 5vw, 52px); margin: 0; line-height: 1; }
+.Comicconheader h2 { font-size: clamp(14px, 2.5vw, 24px); margin: 0; opacity: 0.85; }
+
+.espacio { border-color: rgba(255,255,255,0.25); margin: 0 5%; }
+
+/* TÍTULO */
+.section-title {
+    font-size: clamp(22px, 4vw, 36px);
+    text-align: center;
+    padding: 30px 16px 20px;
+    letter-spacing: 1px;
+}
+
+/* RESUMEN MINI DEL CARRITO */
+.resumen-mini {
+    background-color: rgb(32, 25, 124);
+    border-radius: 12px;
+    padding: 16px 24px;
+    margin-bottom: 28px;
+    font-size: clamp(14px, 1.8vw, 18px);
+}
+.resumen-mini-fila {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.resumen-mini-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0;
+    font-size: clamp(16px, 2.5vw, 22px);
+    border-top: 2px solid rgba(255,255,255,0.3);
+    margin-top: 8px;
+}
+
+/* WRAPPER FORMULARIO */
+.pago-wrapper {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 5% 40px;
+}
+
+/* GRUPOS */
+.grupo {
+    background-color: rgb(56, 49, 155);
+    border-radius: 14px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 24px;
+    margin-bottom: 24px;
+}
+
+.subtitulo {
+    font-size: clamp(15px, 2vw, 20px);
+    margin: 0 0 18px;
+    opacity: 0.8;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* CAMPOS */
+.campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+.campo label {
+    font-size: clamp(12px, 1.5vw, 15px);
+    opacity: 0.75;
+    margin-bottom: 6px;
+}
+.campo input {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 8px;
+    color: white;
+    padding: 10px 14px;
+    font-size: clamp(14px, 1.8vw, 17px);
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    outline: none;
+    transition: border-color 0.2s;
+}
+.campo input:focus {
+    border-color: #c1b3ff;
+    background: rgba(255,255,255,0.15);
+}
+.campo input::placeholder { color: rgba(255,255,255,0.35); }
+
+/* DOS COLUMNAS */
+.fila-doble {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.fila-doble .campo { flex: 1 1 140px; }
+
+/* BOTÓN PAGAR */
+.btn-pagar {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 14px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: clamp(18px, 2.5vw, 26px);
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+    margin-top: 8px;
+}
+.btn-pagar:hover { background: #222; transform: scale(1.02); }
+
+/* SECCIÓN ÉXITO */
+.exito-wrapper {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 5% 60px;
+}
+.exito-icono { font-size: 72px; margin-bottom: 16px; }
+.exito-titulo {
+    font-size: clamp(26px, 5vw, 46px);
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+.exito-texto {
+    font-size: clamp(15px, 2vw, 20px);
+    opacity: 0.9;
+    margin: 6px 0;
+}
+.exito-resumen {
+    background-color: rgb(32, 25, 124);
+    border-radius: 12px;
+    padding: 20px 28px;
+    margin: 28px 0;
+    text-align: left;
+    font-size: clamp(14px, 1.8vw, 18px);
+}
+.exito-resumen-fila {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.exito-resumen-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0 0;
+    font-size: clamp(18px, 2.5vw, 24px);
+    border-top: 2px solid rgba(255,255,255,0.3);
+    margin-top: 8px;
+}
+.btn-volver {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 12px 48px;
+    text-decoration: none;
+    font-size: clamp(16px, 2.5vw, 22px);
+    display: inline-block;
+    margin-top: 10px;
+    transition: background 0.2s, transform 0.15s;
+}
+.btn-volver:hover { background: #222; color: white; transform: scale(1.03); }
+
+/* FOOTER */
+.footer { background-color: rgba(0,0,0,0.35); padding: 28px 5%; }
+.footer-contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+}
+.footer-izq, .footer-der { flex: 1 1 200px; }
+.cierre { font-size: clamp(13px, 1.8vw, 17px); letter-spacing: 1px; margin-bottom: 10px; }
+.redes { display: flex; gap: 14px; flex-wrap: wrap; }
+.redes img { width: 34px; transition: transform 0.2s; }
+.redes img:hover { transform: scale(1.15); }
+.linea-footer { width: 2px; background: rgba(255,255,255,0.3); align-self: stretch; min-height: 80px; }
+
+@media (max-width: 600px) {
+    .linea-footer { display: none; }
+}
+
+.formulario { display: flex; flex-wrap: wrap; gap: 8px; }
+.formulario input[type="email"] {
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 8px;
+    color: white;
+    padding: 8px 14px;
+    font-size: 15px;
+    flex: 1 1 150px;
+    outline: none;
+}
+.formulario input::placeholder { color: rgba(255,255,255,0.5); }
+.submit {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.submit:hover { background: #222; }
